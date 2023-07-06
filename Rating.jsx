@@ -4,12 +4,12 @@ class Rating extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            rating: 0
+            r: 0
         };
     }
 
     setRating(ratingValue) {
-        this.setState({ rating: ratingValue });
+        this.setState({ r: ratingValue });
     }
 
     render() {
@@ -20,11 +20,11 @@ class Rating extends React.Component {
                     <Star
                         key={star}
                         star={star}
-                        isSelected={star <= this.state.rating}
+                        isSelected={star <= this.state.r}
                         onSelect={() => this.setRating(star)}
                     />
                 ))}
-                <p>Your rating is: {this.state.rating}</p>
+                <p>Your rating is: {this.state.r}</p>
             </div>
         );
     }
