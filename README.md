@@ -19,6 +19,6 @@ This is a safe environment to learn, experiment, and understand how `prplex` can
 
 ## Feedback and Questions
 
-We welcome your feedback on `prplex` and this demo. If you have any questions, suggestions, or encounter any issues, please don't hesitate to raise an issue in this repository. We appreciate your input as it helps us improve `prplex` to better suit your needs!
+We welcome your feedback on `prplex` and this demo. If you have any questions, suggestions, or encounter any issues, please don't hesitate to send an email to [hello@fsck.ai](mailto:hello@fsck.ai). We appreciate your input as it helps us improve `prplex` to better suit your needs!
 
 Enjoy exploring and testing `prplex`!
